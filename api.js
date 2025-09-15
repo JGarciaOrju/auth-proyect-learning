@@ -6,7 +6,7 @@ const { Auth, isAuthenticated } = require('./auth.controller');
 const port = 3000;
 
 mongoose.connect(
-  'mongodb+srv://Jorge:asdf123@cluster0.vxwaazh.mongodb.net/miapp?retryWrites=true&w=majority&appName=Cluster0'
+ 
 );
 
 app.use(express.json());
